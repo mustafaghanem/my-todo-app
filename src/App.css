@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 body {
   height: calc(100vh - 3rem);
-  background: #F9F5EB;
+  background: #f9f5eb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ h1 {
 }
 
 .TodoBody {
-  background: #EA5455;
+  background: #ea5455;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
@@ -40,7 +40,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #F9F5EB;
+  border: 1px solid #f9f5eb;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -53,8 +53,8 @@ h1 {
 }
 
 .todo-btn {
-  background: #F9F5EB;
-  color: #EA5455;
+  background: #f9f5eb;
+  color: #ea5455;
   border: none;
   padding: 0.55rem;
   cursor: pointer;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .completed {
-  color: #F9F5EB;
+  color: #f9f5eb;
   text-decoration: line-through;
   cursor: pointer;
 }
@@ -90,4 +90,3 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
- 
